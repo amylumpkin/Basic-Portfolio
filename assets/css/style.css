@@ -131,6 +131,19 @@ footer {
   text-align: center;
   padding: 20px;
   font-size: 15px;
-  color: #ffffff;
+  color: white;
+  position: absolute;
+  left: 0;
+  height: 20px;
+  width: 100%;
+  overflow: hidden;
+  bottom: 0;
+
 }
+
+#footer {
+  color:white;
+}
+
+
 
