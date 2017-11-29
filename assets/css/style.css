@@ -3,6 +3,10 @@ Each of these CSS elements is associated with an HTML Element, Class, or ID.
 Flip between this CSS file and the HTML to see how things line up.
 Experiment with deleting lines of code from the CSS to see how it affects the webpage when you refresh in the browser.
 */
+*/
+* {
+  box-sizing: content-box;
+}
 
 body {
   padding: 0;
@@ -15,7 +19,7 @@ header {
   width: 100%;
   margin: 0 auto;
   background: #ffffff;
-  border-bottom: 2px;
+  border-bottom: 1px;
   border-color: #cccccc;
   border-style: solid;
 }
@@ -87,8 +91,7 @@ p, section {
   float: left;
   width: 200px;
   margin-right: 20px;
-
-#portfolio-image {}
+}
 
 .button {
   border-right: 1px;
@@ -123,5 +126,6 @@ footer {
   text-align: center;
   padding: 20px;
   font-size: 15px;
+  color: #ffffff;
 }
 
