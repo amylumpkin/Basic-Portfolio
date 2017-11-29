@@ -93,6 +93,11 @@ p, section {
   margin-right: 20px;
 }
 
+#portfolio-image {
+  width: 300px;
+  padding: 10px;
+}
+
 .button {
   border-right: 1px;
   float: right;
