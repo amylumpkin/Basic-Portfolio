@@ -83,8 +83,9 @@ p, section {
 }
 
 #sidebar {
-  width: 210px;
+  width: 215px;
   float: right;
+  text-align: center;
 }
 
 #bio-image {
